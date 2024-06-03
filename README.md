@@ -4,57 +4,16 @@
 
 This project is a web application for an auction platform where users can create listings, place bids, and comment on items. It is built using Django, a high-level Python web framework.
 
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Table of Contents](#table-of-contents)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Features](#features)
-- [Dependencies](#dependencies)
-- [Configuration](#configuration)
-- [Documentation](#documentation)
-- [Examples](#examples)
-- [Troubleshooting](#troubleshooting)
-- [Contributors](#contributors)
-- [License](#license)
-
-## Installation
-
-1. **Clone the repository:**
-    ```bash
-    git clone https://github.com/yourusername/auction-website.git
-    cd auction-website
-    ```
-
-2. **Create a virtual environment:**
-    ```bash
-    python3 -m venv venv
-    source venv/bin/activate
-    ```
-
-3. **Install dependencies:**
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-4. **Apply migrations:**
-    ```bash
-    python manage.py migrate
-    ```
-
-5. **Run the development server:**
-    ```bash
-    python manage.py runserver
-    ```
-
 ## Usage
 
 1. **Register an account** to start creating and bidding on listings.
-2. **Create a new listing** by navigating to the listing page and filling in the details.
-3. **Place bids** on active listings.
-4. **Comment** on listings to share your thoughts or ask questions.
-5. **Close bidding** on your own listings when you're ready to finalize the sale.
+2. **Log in** after registering you can logout and login at anytime.
+3. **Create a new listing** by navigating to the listing page and filling in the details.
+4. **Place bids** on active listings.
+5. **Comment** on listings to share your thoughts or ask questions.
+6. **Close bidding** on your own listings when you're ready to finalize the sale.
+7. **Category search** view items by their category
+8. **Watchlist** Add items to watchlist.
 
 ## Features
 
@@ -64,6 +23,7 @@ This project is a web application for an auction platform where users can create
 - Comment on listings.
 - Add listings to a personal watchlist.
 - View listings by category.
+- Add a listing to your watchlist
 
 ## Dependencies
 
@@ -134,3 +94,21 @@ Set environment variables for sensitive information like SECRET_KEY, database cr
 * Add a comment on a listing's detail page.
 
 [Link to hosted site]<http://commerce1.pythonanywhere.com/>
+
+## Login page
+![login page](login.png) 
+
+## Register page
+![register page](register.png)
+
+## Listings view
+![listings page](listings.png)
+
+## Add listing 
+![add_listing](add_listing.png)
+
+## Watchlist
+![watclist](watchlist.png)
+
+## Categories
+![categories](categories.png)
